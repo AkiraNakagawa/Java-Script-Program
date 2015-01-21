@@ -1,0 +1,404 @@
+
+var ji = function(){
+    fill(162, 151, 247);
+    rect(10,129,380,100);
+};
+var title = function(){
+    fill(162, 151, 247);
+    rect(10,129,380,100);
+    fill(0, 0, 0);
+    textSize(33);
+    text("Let's Learn Japanese!!",20,200);
+};
+var sub1 = function(){
+    fill(0, 0, 0);
+    textSize(40);
+    text("挨拶 - Greeting",62,100);
+};
+var sub2 = function(){
+    fill(0, 0, 0);
+    textSize(40);
+    text("動物 - Animals",70,100);
+};
+var sub3 = function(){
+    fill(0, 0, 0);
+    textSize(40);
+    text("色 - Colours",87,100);
+};
+var sub4 = function(){
+    fill(0, 0, 0);
+    textSize(40);
+    text("国の名前 - Country",26,100);
+};
+var backdrop = function(){
+    background(255, 255, 255);
+}; 
+var button = function(){
+    fill(240, 14, 71);
+    rect(120,250,150,70);
+    fill(235, 230, 230);
+    textSize(40);
+    text("Press", 146,292);
+};
+
+backdrop();
+button();
+title();
+
+var i=0;
+
+var mousePressed = function(){
+    if (mouseX > 120 && mouseX<120+150 && mouseY>250 && mouseY<70+250){
+        i++;
+        //挨拶など
+        if (i === 1){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(38);
+            fill(0, 0, 0);
+            text("こんにちは!", 92,200);
+        }
+       
+        if (i === 2){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Hello!",148,200);
+        }
+        
+        if(i === 3){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("初めまして。",100,200);
+            
+        } 
+        
+        if(i === 4){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Nice to meet you!",40,200);
+        }
+        if (i === 5){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("ありがとう！",80,200);
+            
+        }
+        
+        if (i === 6){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Thank you!", 100,200);
+        }
+        
+        if (i===6){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("元気ですか？", 100,200);
+        }
+        
+        if (i===7){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("How are you？", 100,200);
+        }
+        
+        if (i===8){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("まあまあです。", 80,200);
+        }
+        
+        if (i===9){
+            backdrop();
+            sub1();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("I'm fine.", 130,200);
+        }
+        
+        
+         //動物
+        if (i===10){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("ワニ", 130,200);
+        }
+        if (i===11){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Alligator", 130,200);
+        }
+        if (i===12){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("アヒル", 130,200);
+        }
+        if (i===13){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Duck", 150,200);
+        }
+        if (i===14){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("犬", 180,200);
+        }
+        if (i===15){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Dog", 160,200);
+        }
+        
+        if (i===16){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("猫", 180,200);
+        }
+        if (i===17){
+            backdrop();
+            sub2();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Cat", 160,200);
+        }
+        
+        //色について
+        if (i===18){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("白", 180,200);
+        }
+        if (i===19){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("White", 145,200);
+        }
+        if (i===20){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("赤", 180,200);
+        }
+        if (i===21){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Red", 160,200);
+        }
+        if (i===22){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("青", 180,200);
+        }
+        if (i===23){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Blue", 150,200);
+        }
+        if (i===24){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("黄色", 130,200);
+        }
+        if (i===25){
+            backdrop();
+            sub3();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Yellow", 140,200);
+        }
+        
+        
+        //国の名前
+        if (i===26){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("日本", 150,200);
+        }
+        if (i===27){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Japan", 145,200);
+        }
+        if (i===28){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("中国", 150,200);
+        }
+        if (i===29){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("China", 145,200);
+        }
+        if (i===30){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("韓国", 150,200);
+        }
+        if (i===31){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Korea", 145,200);
+        }
+        if (i===32){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("アメリカ", 120,200);
+        }
+        if (i===33){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("The US", 130,200);
+        }
+        if (i===34){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("メキシコ", 130,200);
+            i=0;
+        }
+        if (i===35){
+            backdrop();
+            sub4();
+            ji();
+            button();
+            textSize(40);
+            fill(0, 0, 0);
+            text("Mexico", 140,200);
+            i=0;
+        }
+    }
+    
+}; 
+        
+        
+        
